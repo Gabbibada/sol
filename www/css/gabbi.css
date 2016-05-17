@@ -1,0 +1,366 @@
+.body {
+    background: url("../img/bg.jpg") no-repeat center / cover transparent;    
+}
+.bar-dark {
+    box-shadow: 0px 3px 3px grey;
+}
+.bar-positive {
+    box-shadow: 0px 1px 1px grey;
+}
+.item.item-avatar-left {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    background: rgb(220, 240, 176);
+}
+.item {
+    opacity: 0.8;
+}
+.item.item-divider {
+    background: #83b3fe; 
+}
+.item.item-details {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    background: rgb(220, 240, 176);
+}
+.item-bg {
+    background: #fff; 
+    opacity: 0.87;
+}
+.item-bg h1, .h1, h2, .h2, h3, .h3{
+    background: #fff;
+    margin-left: 15px;
+    font-size: 16px;
+}
+ion-item.item.row img {
+    font-size: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+i.ion-icon {
+    text-decoration: none;
+    color: #000;
+}
+
+/*slide*/
+
+.slide-box-positive h2 {
+    margin: 20px 20px;
+}
+.slide {
+        border-color: #ddd;
+        background-color: #fff;
+        color: #444;
+        position: relative;
+        z-index: 2;
+        display: block;
+        margin: -1px;
+        padding: 16px;
+        border-width: 1px;
+        border-style: solid;
+        font-size: 16px;
+}
+.slide-content {
+    display: inline-block;
+    line-height: 20px;
+}
+.slide-content h2 {
+    margin: 0 0 2px 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: #666;
+}
+.slide-content p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 2px;
+    white-space: normal;
+    width: 90%;
+}
+
+
+.vertical-center{
+    text-align: center;
+    margin-top: 50px;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center; 
+}
+
+.vertical-center-container .vertical-center {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+}
+
+.intro-text {
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+.intro-text:last-child {
+    margin-bottom: 0; 
+}
+
+#logo {
+    margin: 10px 0px;
+    margin-bottom: -50px;
+    height: 300px; 
+    background-size: cover;
+    background-position: center; 
+}
+
+.full-image {
+    width: 100%; 
+}
+
+.rounded-image {
+    border-radius: 50%; 
+}
+
+.col {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: block;
+    padding: 5px;
+    width: 100%; 
+}
+/*accordion*/
+/*
+ * http://docs.angularjs.org/api/ng/directive/ngShow#usage_animations
+ */
+.list .item.item-accordion {
+    line-height: 38px;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: 0.09s all linear;
+}
+.list .item.item-accordion.ng-hide {
+    line-height: 0px;
+}
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove {
+    display: block !important;
+}
+
+.item.item-accordion img{    
+    max-width:  100% !important;    
+}
+
+.item.item-stable {
+    border-color: #b2b2b2;
+    background-color: #f8f8f8;
+    color: #444;
+    font-size: 16px;
+}
+ion-item.item-stable.event.item.ng-binding {
+    font-size: 14px;
+    white-space: normal;
+}
+
+/*user profile*/
+#profile-bg {
+    position: fixed;
+    left: 0;
+    top: 44px;
+    width: 100%;
+    height: 150px;
+    background: url('../img/authors/bg.jpg') no-repeat transparent;
+    background-size: 100%;
+    background-position: 50% 20%;
+    text-align: center;
+}
+
+.profile-bg {    
+    background: url('../img/authors/bg.jpg') no-repeat transparent;
+    background-size: 100%;
+    background-position: 50% 20%;    
+    margin-top: -20px;
+    text-align: center;
+}
+
+.profile-cover {
+    background: url("../img/profile_bg.jpg") no-repeat center / cover transparent;        
+}
+
+#content {
+    position: relative;
+    margin-top: 150px;
+    background-color: white;
+    box-shadow: 0px -1px 10px rgba(0,0,0,0.4);
+    padding-top: 200px;
+}
+
+#profile-info {
+    position: absolute;
+    top: -95px;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+}
+#profile-name {
+    color: #444;
+    font-size: 26px;
+}
+#profile-description {
+    font-size: 15px;
+    color: #888;
+}
+#profile-description a {
+    color: #888;
+}
+
+#profile-image {
+    display: block;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    width: 128px;
+    height: 128px;
+    margin: 30px auto 0;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.7);
+}
+
+.list-item-content {
+    padding: 5px;
+}
+
+.list-item {
+    color: #666666;
+}
+
+.post {
+    color: #444;
+}
+
+.post-time {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 11px;
+    color: #888;
+}
+
+.post-profile-image {
+    display: inline-block;
+    vertical-align: top;
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
+.post-options {
+    position: absolute;
+    font-size: 16px;
+    right: 5px;
+    bottom: 5px;
+    color: #888;
+}
+/*user course*/
+swipe-card {
+    display: none;
+    position: fixed;
+    -webkit-transform: scale(1,1);
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 300px;
+    margin-left: -150px;
+    margin-top: 150px;
+    box-sizing: border-box;
+    background-color: rgb(255,255,255);
+    border-radius: 4px;
+    overflow: hidden;
+    -webkit-animation-fill-mode: forwards;
+}
+
+swipe-card .title {
+    height: 40px;
+    padding: 5px;
+    line-height: 30px;
+    color: #444;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+swipe-card .image {
+    overflow: hidden;
+    max-height: 210px;
+}
+swipe-card .button {
+    border: none;
+}
+swipe-card .image img {
+    width: 100%;
+    border-radius: 0px 0px 4px 4px;
+}
+
+#start-card {
+    color: #fff;
+    background-color: #30BD8A;
+    line-height: 300px;
+    word-wrap: break-word;
+    border: 6px solid #4CD68E;
+    text-align: center;
+    margin-top: -150px !important;
+}
+#start-card span {
+    display: inline-block;
+    line-height: 40px;
+    width: 200px;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+#footer .button {
+    color: #fff;
+}
+
+@-webkit-keyframes bounceIn {
+    0% {
+        -webkit-transform: scale(0,0);
+    }
+    70% {
+        -webkit-transform: scale(1.2,1.2);
+    }
+    100% {
+        -webkit-transform: scale(1,1);
+    }
+}
+
+swipe-card.pop-in-start {
+    -webkit-transform: scale(0,0);
+}
+swipe-card.pop-in {
+    -webkit-animation: bounceIn 0.4s ease-out;
+}
+
+.cover {
+    background: #EFEFEF;
+}

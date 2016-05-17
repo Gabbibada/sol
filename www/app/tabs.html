@@ -1,0 +1,38 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-color-royal">
+
+  <!-- Home Tab -->
+  <ion-tab title="Home" icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/home">
+    <ion-nav-view name="tab-home"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Audio Tab -->
+  <ion-tab title="Audio" icon-off="ion-ios-recording-outline" icon-on="ion-ios-recording" href="#/tab/audio">
+    <ion-nav-view name="tab-audio"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Video Tab -->
+  <ion-tab title="Video" icon-off="ion-ios-videocam-outline" icon-on="ion-ios-recording-outline" href="#/tab/video">
+    <ion-nav-view name="tab-video"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Articles Tab -->
+  <ion-tab title="TV" icon-off="ion-ios-albums-outline" icon-on="ion-ios-albums" href="#/tab/articles">
+      <ion-nav-view name="tab-articles"></ion-nav-view>
+  </ion-tab>
+  
+  <!-- News Tab -->
+  <ion-tab title="News" icon-off="ion-ios-world-outline" icon-on="ion-ios-world" href="#/tab/news">
+      <ion-nav-view name="tab-news"></ion-nav-view>
+  </ion-tab>
+  
+  <!-- Events Tab -->
+  <ion-tab title="Events" icon-off="ion-ios-list-outline" icon-on="ion-ios-list" href="#/tab/events">
+      <ion-nav-view name="tab-events"></ion-nav-view>
+  </ion-tab>
+
+</ion-tabs>

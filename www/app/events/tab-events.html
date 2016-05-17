@@ -1,0 +1,13 @@
+<ion-view title="Events" class="cover">
+    
+    <ion-content class="padding">
+        <div ng-repeat="post in event | orderBy:'-date'">
+            <ion-item class="item-body event" ng-click="toggleGroup(post)" ng-class="{active: isGroupShown(post)}" style="font-size: 14px;">
+                <i class="icon" ng-class="isGroupShown(post) ? 'ion-minus' : 'ion-plus'"></i>        
+                {{post.title}}
+            </ion-item>
+            <ion-item class="item-accordion" ng-show="isGroupShown(post)" ng-bind-html="post.content"></ion-item>
+        </div>
+    </ion-content>
+    
+</ion-view>

@@ -1,0 +1,27 @@
+<ion-view view-title="Audio" class="cover">
+    
+  <ion-content class="padding">     
+      <div ng-repeat="post in audio | orderBy:'-date'" class="list card">
+          <div class="item item-avatar">
+              <img src="img/viz/1.jpg">
+              <h2 style="font-weight: bold;">{{post.title}}</h2>
+              <p>{{post.date}}</p>
+              <p>{{post.slug}}</p>
+          </div>
+          <p style="font-size: 12px; font-weight: 500;" class="item item-body">This message is essential for Christians as it explains how we ought to recieve from God</p>
+          <div class="item item-image">
+              <img src="img/viz/1.jpg">
+          </div>
+                    
+          <a class="item item-icon-left" url="{{post.content| filterSrc}}">
+              <ion-audio-play></ion-audio-play>
+              <i class="icon ion-ios-play"></i>
+              Start listening
+          </a>
+          <div class="item">
+                <ion-audio-progress-bar display-time></ion-audio-progress-bar>
+              </div>
+      </div>      
+  </ion-content>
+
+</ion-view>
